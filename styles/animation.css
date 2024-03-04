@@ -37,13 +37,6 @@ Version: 1.0
     animation-delay: .3s;
  }
 
- .bounceIn.o{
-    text-shadow:
-    3px 3px 0 #00bf92,
-    -2px -2px 0 #eca100;
-    color: #fff;
- }
-
  /* Cursor Flash */
  @keyframes cursorFlash {
     0%,

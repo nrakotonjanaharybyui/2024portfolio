@@ -6,9 +6,9 @@ Version: 1.0
 export function construct_header(){
     let header = document.querySelector('#header');
     let main = document.createElement('div');
-    let menu = ['Home', 'About', 'Projects', 'Contact'];
+    let menu = [{name:'Home', link:'index.html'}, {name:'About', link:'#'}, {name:'Projects', link:'projects.html'}, {name:'Contact', link:'#'}];
     menu.forEach(function(element){
-        let link = new Anchor_link(element, '#');
+        let link = new Anchor_link(element.name, element.link);
         main.appendChild(link.place());
     });
     header.appendChild(main);

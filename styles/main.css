@@ -63,4 +63,33 @@ h1, h1 span{
 
 #main{
  background-color: #111111;
+ min-height: 100vh;
 }
+
+.contentWrapper{
+    max-width: 70vw;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+h1{
+    color: #bebebe;
+    font-size: 48px;
+}
+
+
+
+/* Extra style for the titles */
+.titleExtra{
+    text-shadow:
+    3px 3px 0 #00bf92,
+    -2px -2px 0 #eca100;
+    color: #fff;
+ }
+
+ .titleExtra2{
+    text-shadow:
+    2px 2px 0 #00bf92;
+    /* -2px -2px 0 #eca100; */
+    color: #fff;
+ }
