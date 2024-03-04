@@ -1,0 +1,66 @@
+/* Main CSS
+Author: Narindra Rakotonjanahary
+Version: 1.0
+ */
+
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+ }
+
+ #header{
+    background-color: #1e1e1e;
+ }
+
+ #header div{
+    align-content: end;
+    display: flex;
+    justify-content: end;
+ }
+ 
+#header div a{
+    color: #bebebe;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#header div a:hover{
+    background-color: #111111; 
+    /* color: #00c3ff; */
+    border-bottom: 1px solid #00bf92;
+    padding-bottom: 19px;
+}
+
+h1, h1 span{
+    font-weight: 700;
+}
+
+.h1_spec1{
+    font-size: 160px;
+    color: #bebebe;
+}
+
+.p_spec1{
+    color: #00bf92;
+    margin-top: -40px;
+}
+
+.p_spec1 span{
+    color: #bebebe;
+}
+
+#titleWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#main{
+ background-color: #111111;
+}
