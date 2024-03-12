@@ -14,13 +14,21 @@ Version: 1.0
     background-color: #1e1e1e;
  }
 
- #header div{
+ #header nav{
     align-content: end;
     display: flex;
     justify-content: end;
  }
+
+ #header nav ul{
+    list-style: none;
+ }
+
+ #header nav ul li{
+    display: inline;
+ }
  
-#header div a{
+#header nav ul li a{
     color: #bebebe;
     font-size: 14px;
     text-decoration: none;
@@ -29,7 +37,14 @@ Version: 1.0
     box-sizing: border-box;
 }
 
-#header div a:hover{
+#header nav ul li a:hover{
+    background-color: #111111; 
+    /* color: #00c3ff; */
+    border-bottom: 1px solid #00bf92;
+    padding-bottom: 19px;
+}
+
+#header nav ul li a:visited{
     background-color: #111111; 
     /* color: #00c3ff; */
     border-bottom: 1px solid #00bf92;
@@ -92,4 +107,10 @@ h1{
     2px 2px 0 #00bf92;
     /* -2px -2px 0 #eca100; */
     color: #fff;
+ }
+
+ /* Projects list additional rules */
+ .projectItem{
+    background-color: #bebebe;
+    padding: 10px;
  }
